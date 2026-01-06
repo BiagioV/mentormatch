@@ -11,6 +11,7 @@ Piattaforma per mentoring 1:1 con:
 
 > Vincoli progetto rispettati: nessun framework Frontend/Backend (solo jQuery + Bootstrap + Express).
 
+VIDEO DEMO: https://drive.google.com/file/d/1QAmamMNj176eoelLyABunuGtjEUY8GUL/view?usp=sharing
 ---
 
 ## Requisiti

@@ -11,7 +11,7 @@ Piattaforma per mentoring 1:1 con:
 
 > Vincoli progetto rispettati: nessun framework Frontend/Backend (solo jQuery + Bootstrap + Express).
 
-VIDEO DEMO: https://drive.google.com/file/d/1QAmamMNj176eoelLyABunuGtjEUY8GUL/view?usp=sharing
+> Video DEMO : https://drive.google.com/file/d/1QAmamMNj176eoelLyABunuGtjEUY8GUL/view?usp=sharing
 ---
 
 ## Requisiti
@@ -61,7 +61,7 @@ docker compose up -d
 ```
 
 ### Opzione B: senza Docker (Windows)
-1) Installa PostgreSQL (con pgAdmin va benissimo)
+1) Installa PostgreSQL (anche con PGADMIN)
 2) Crea un DB chiamato **mentormatch**
    - con pgAdmin: Databases → Create → Database…
    - oppure via SQL: `CREATE DATABASE mentormatch;`
@@ -83,6 +83,10 @@ Sostituisci il percorso con la tua versione di PostgreSQL (esempio):
 "C:\Program Files\PostgreSQL\18\bin\psql.exe" "postgres://postgres:LA_TUA_PASSWORD@localhost:5432/mentormatch" -f db\seed.sql
 ```
 
+### Se usi PGADMIN
+1) Lancia la query in schema.sql
+2) Lancia la queri in seed.sql
+
 ---
 
 ## 4) Avvia l’app
@@ -103,7 +107,7 @@ Apri: http://localhost:3000
 ## Funzionalità principali (script demo)
 1) Login come mentee → Catalogo → filtri → apri profilo mentor → prenota slot
 2) Logout → Login come mentor → Dashboard → imposta link meeting (Zoom/Meet)
-3) (Opz.) a sessione conclusa: login mentee → Dashboard → lascia recensione
+3) A sessione conclusa: login mentee → Dashboard → lascia recensione
 
 ---
 

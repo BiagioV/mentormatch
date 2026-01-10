@@ -42,6 +42,9 @@ app.get('*', (req, res) => {
 });
 
 const port = Number(process.env.PORT || 3000);
-app.listen(port, () => console.log(`MentorMatch running on http://localhost:${port}`));
+
+if (require.main === module) {
+  app.listen(port, () => console.log(`MentorMatch running on http://localhost:${port}`));
+}
 
 module.exports = app; // per i test

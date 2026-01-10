@@ -8,6 +8,9 @@
     "start": "node server/app.js",
     "test": "jest --runInBand"
   },
+  "jest": {
+    "testMatch": ["**/__tests__/**/*.test.js"]
+  },
   "keywords": [
     "express",
     "jquery",

@@ -122,7 +122,7 @@ Apri: http://localhost:3000
 ## Documentazione
 - API: `docs/api.md`
 - Deploy: `docs/deploy.md`
-- ER Diagram: `docs/er-diagram.png` *(da aggiungere)*
+- ER Diagram: `docs/er-diagram.png`
 
 ---
 
